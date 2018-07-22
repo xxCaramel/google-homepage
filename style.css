@@ -1,5 +1,10 @@
 
+* {
 
+  margin: 0;
+  padding: 0;
+
+}
 
 nav {
 
@@ -8,19 +13,24 @@ nav {
 
 }
 
-nav ul {
+*:focus {
+  outline: none;
+}
+
+ ul {
 
   position: relative;
   margin-right: 5px;
+  margin-top: 15px;
   font-family: arial;
   font-weight: lighter;
-  font-size: 14px;
+  font-size: 13px;
   width: auto;
 
 
 }
 
-nav li {
+ li {
 
   display: inline;
   text-decoration: none;
@@ -32,7 +42,7 @@ nav li {
 
 
 
-nav li a {
+li a {
 
   color: black;
   text-decoration: none;
@@ -56,7 +66,7 @@ nav li a:hover {
   top:80px;
   display: block;
   text-align: center;
-  
+
 
 
 
@@ -66,10 +76,10 @@ nav li a:hover {
 
 
     margin: auto;
-
     margin-top: 50px;
-
+    margin-bottom: 15px;
     width: 50%;
+    padding: 10px;
 
 
 
@@ -90,8 +100,8 @@ nav li a:hover {
 
 .container input[type="text"] {
 
- width: 38%;
- height: 25px;
+ width: 40%;
+ height: 30px;
  margin-bottom: 15px;
  box-shadow: 2px 3px 5px #d9d3d3;
  border: 1px solid #f2f2f2;
@@ -100,6 +110,12 @@ nav li a:hover {
  font-size: 18px;
  text-indent: 10px;
 
+
+}
+
+.container input[type="text"]:active{
+
+sele
 
 }
 
@@ -144,5 +160,87 @@ nav li a:hover {
   border: 1px solid #d9d3d3;
   box-shadow: 0px 1px 3px  #d9d3d3;
   color: black;
+
+}
+
+footer {
+
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10%;
+  background-color: rgb(242, 242, 242);
+  overflow: hidden;
+
+
+}
+
+.foot {
+
+  position: relative;
+  text-align: left;
+  border: 1px solid rgb(227, 227, 227);
+  height: 50%;
+  display: block;
+  ]
+
+}
+
+.foot p {
+
+   color: black;
+   padding: 10px;
+   font: 15px arial;
+   color:rgb(111, 111, 111);
+   text-indent: 30px;
+
+
+
+}
+
+.foot a {
+
+ color:rgb(111, 111, 111);
+ text-indent: 20px;
+ font: 15px arial;
+
+
+}
+
+.foot li {
+
+  margin-left: 20px;
+
+
+}
+
+.foot a:hover {
+
+
+  text-decoration: underline;
+}
+
+.foot:first-child {
+  border-bottom: none;
+}
+
+#first {
+
+  padding: 10px;
+  width: 50%;
+  float:left;
+  margin: 0;
+}
+
+#second {
+
+float: right;
+width: auto;
+margin: 0;
+  padding: 10px;
+margin-right:20px;
+
 
 }
